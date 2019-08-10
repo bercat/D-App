@@ -1,0 +1,17 @@
+<form #registerForm="ngForm" (ngSubmit)="register()"> 
+    <h2 class="text-center text-primary">Logg inn</h2>
+    <hr>
+
+    <div class="form-group">
+      <input type="text" class="form-control" required name="username" [(ngModel)]="model.username" placeholder="Brukernavn">
+    </div>
+
+    <div class="form-group">
+      <input type="password" class="form-control" required name="password" [(ngModel)]="model.password" placeholder="Passord">
+    </div>
+
+    <div class="form-group text-center">
+      <button type="submit" class="btn btn-success mb-2">Registrer</button>
+      <button type="button" class="btn btn-default mb-2" (click)="cancel()">Avbryt</button>
+    </div>
+</form>
