@@ -6,6 +6,6 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 
 
 
-Starter project from
+Starter codestudent project from
 Neil Cummings
 TryCatchLearn 'master' of https://github.com/TryCatchLearn/DatingApp
